@@ -15,6 +15,8 @@
   --muted: #78676a;
   --line: rgba(150, 110, 55, .28);
   --shadow: 0 22px 60px rgba(69, 34, 30, .11);
+  
+  
 }
 
 * { box-sizing: border-box; }
@@ -23,14 +25,15 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 78px;
 }
-
+               
 body {
+ 
   margin: 0;
   color: var(--ink);
-  background:
+  /* background:
     radial-gradient(circle at 12% 12%, rgba(215,184,120,.16), transparent 28%),
     radial-gradient(circle at 88% 20%, rgba(92,35,48,.07), transparent 26%),
-    linear-gradient(135deg, #fffaf3 0%, #f7eee1 48%, #fffaf3 100%);
+    linear-gradient(135deg, #fffaf3 0%, #f7eee1 48%, #fffaf3 100%); */
   font-family: "DM Sans", sans-serif;
   overflow-x: hidden;
 }
@@ -72,7 +75,7 @@ a { color: inherit; text-decoration: none; }
 
 .script {
   font-family: "Allura", "Great Vibes", cursive;
-  font-weight: 400;
+  font-weight: 100;
   color: var(--wine);
   font-size: 2.6rem;
   line-height: 1;
@@ -185,9 +188,7 @@ a { color: inherit; text-decoration: none; }
   place-items: center;
   position: relative;
   overflow: hidden;
-  background:
-    radial-gradient(circle at 50% 35%, rgba(255,255,255,.92), transparent 34%),
-    linear-gradient(135deg, #f8eee0 0%, #fffaf3 48%, #f1e4d1 100%);
+ background-image: url("images/bg.jpg");
 }
 
 .hero::before,
