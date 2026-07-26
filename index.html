@@ -4,50 +4,75 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ansu Joy & Sunoj K Sebastian | Wedding Invitation</title>
-<meta name="description" content="The wedding invitation of Ansu Joy and Sunoj K Sebastian.">
+<meta name="description" content="Wedding invitation of Ansu Joy and Sunoj K Sebastian.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
-<body>
 
-<nav class="nav">
+<body>
+<div class="page-glow page-glow-one"></div>
+<div class="page-glow page-glow-two"></div>
+
+<nav class="nav" aria-label="Main navigation">
   <div class="container nav-inner">
     <a class="logo" href="#home">A <span>&</span> S</a>
-    <button class="menu" id="menu">☰</button>
+    <button class="menu" id="menu" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
     <div class="links" id="links">
-      <a href="#home">Home</a><a href="#story">Our Story</a><a href="#events">Events</a>
-      <a href="#venue">Venue</a><a href="#gallery">Gallery</a><a href="#rsvp">RSVP</a>
+      <a href="#home">Home</a>
+      <a href="#story">Our Story</a>
+      <a href="#events">Events</a>
+      <a href="#venue">Venue</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#rsvp">Guestbook</a>
     </div>
   </div>
 </nav>
 
 <main>
 <section class="hero" id="home">
+  <div class="hero-overlay"></div>
   <div class="hero-card">
     <div class="cross">✝</div>
     <div class="invite">WITH GOD'S BLESSINGS · WE CORDIALLY INVITE YOU TO</div>
-    <h1>Ansu Joy <span class="amp">&amp;</span> Sunoj K Sebastian</h1>
-    <p class="hero-sub serif">Two hearts, one beautiful journey, and a lifetime blessed by love. We invite you to share in the joy of our wedding celebration.</p>
+
+    <div class="names">
+      <div class="name-line">Sunoj K Sebastian</div>
+      <div class="amp">&amp;</div>
+      <div class="name-line">Ansu Joy</div>
+    </div>
+
+    <p class="hero-sub serif">
+      Two hearts, one beautiful journey, and a lifetime blessed by love.
+      We invite you to share in the joy of our wedding celebration.
+    </p>
+
     <div class="event-strip">
       <div><span>Wedding</span><b>15 September 2026</b><span>Tuesday · 11:00 AM</span></div>
       <div><span>Ceremony</span><b>St. Mary's Forane Church</b><span>Poonjar</span></div>
       <div><span>Betrothal</span><b>10 September 2026</b><span>Thursday · 12:00 PM</span></div>
     </div>
-    <div class="countdown" id="countdown">
+
+    <div class="countdown" id="countdown" aria-label="Countdown to wedding">
       <div class="time"><b id="days">--</b><span>Days</span></div>
       <div class="time"><b id="hours">--</b><span>Hours</span></div>
       <div class="time"><b id="mins">--</b><span>Minutes</span></div>
       <div class="time"><b id="secs">--</b><span>Seconds</span></div>
     </div>
+
     <a class="btn gold-btn" href="#events">Explore Our Invitation ↓</a>
   </div>
 </section>
 
 <section class="section" id="story">
   <div class="container">
-    <div class="section-title"><div class="script">Our Story</div><div class="ornament">♥</div><h2>A journey written with grace</h2></div>
+    <div class="section-title">
+      <div class="script">Our Story</div>
+      <div class="ornament">♥</div>
+      <h2>A journey written with grace</h2>
+    </div>
+
     <div class="story-grid">
       <div class="story-copy">
         <p>Some stories are written in books. Ours is being written in the little moments, shared smiles, prayers and memories that brought two families together.</p>
@@ -55,26 +80,40 @@
         <p>From our first memories to this beautiful day, every step has been a blessing. Now, we look forward to celebrating the beginning of forever with the people we love.</p>
         <div class="ornament">✦</div>
       </div>
-      <div class="photo-frame"><div class="photo-placeholder">Your Couple Photo Here</div></div>
+
+      <div class="photo-frame">
+        <div class="photo-placeholder">
+          <span>Our Photo</span>
+          <small>Add your couple photo here</small>
+        </div>
+      </div>
     </div>
   </div>
 </section>
 
 <section class="section alt" id="events">
   <div class="container">
-    <div class="section-title"><div class="script">Wedding Events</div><div class="ornament">♥</div><h2>Save these beautiful moments</h2></div>
+    <div class="section-title">
+      <div class="script">Wedding Events</div>
+      <div class="ornament">♥</div>
+      <h2>Save these beautiful moments</h2>
+    </div>
+
     <div class="events">
       <article class="event-card">
-        <div class="script">A blessed beginning</div><h3>Betrothal</h3>
+        <div class="script">A blessed beginning</div>
+        <h3>Betrothal</h3>
         <div class="detail"><div class="icon">▣</div><div><b>10 September 2026 · Thursday</b><br>12:00 PM onwards</div></div>
         <div class="detail"><div class="icon">⌖</div><div>St. George Syro Malabar Forane Church,<br>Vellayamkudy</div></div>
-        <a class="btn" target="_blank" href="https://www.google.com/maps/search/?api=1&query=St.+George+Syro+Malabar+Forane+Church+Vellayamkudy">Get Directions ↗</a>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=St.+George+Syro+Malabar+Forane+Church+Vellayamkudy">Get Directions ↗</a>
       </article>
+
       <article class="event-card">
-        <div class="script">Forever begins</div><h3>Wedding</h3>
+        <div class="script">Forever begins</div>
+        <h3>Wedding</h3>
         <div class="detail"><div class="icon">▣</div><div><b>15 September 2026 · Tuesday</b><br>11:00 AM onwards</div></div>
         <div class="detail"><div class="icon">⌖</div><div>St. Mary's Forane Church,<br>Poonjar</div></div>
-        <a class="btn" target="_blank" href="https://www.google.com/maps/search/?api=1&query=St.+Mary's+Forane+Church+Poonjar">Get Directions ↗</a>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=St.+Mary's+Forane+Church+Poonjar">Get Directions ↗</a>
       </article>
     </div>
   </div>
@@ -82,59 +121,96 @@
 
 <section class="section" id="venue">
   <div class="container">
-    <div class="section-title"><div class="script">Venue</div><div class="ornament">♥</div><h2>Join us at these sacred places</h2></div>
+    <div class="section-title">
+      <div class="script">Venue</div>
+      <div class="ornament">♥</div>
+      <h2>Join us at these sacred places</h2>
+    </div>
+
     <div class="venue-grid">
-      <div class="venue-card"><div class="smallcaps gold">Betrothal Ceremony</div><h3>St. George Syro Malabar Forane Church</h3><p>Vellayamkudy</p><div class="venue-photo"><img src="st-george-vellayamkudy.png" alt="St. George Church, Vellayamkudy"></div><br><a class="btn" target="_blank" href="https://www.google.com/maps/search/?api=1&query=St.+George+Syro+Malabar+Forane+Church+Vellayamkudy">Open in Google Maps</a></div>
-      <div class="venue-card"><div class="smallcaps gold">Wedding Ceremony</div><h3>St. Mary's Forane Church</h3><p>Poonjar</p><div class="venue-photo"><img src="st-marys-poonjar.png" alt="St. Mary's Forane Church, Poonjar"></div><br><a class="btn" target="_blank" href="https://www.google.com/maps/search/?api=1&query=St.+Mary's+Forane+Church+Poonjar">Open in Google Maps</a></div>
+      <article class="venue-card">
+        <div class="smallcaps gold">Betrothal Ceremony</div>
+        <h3>St. George Syro Malabar Forane Church</h3>
+        <p>Vellayamkudy</p>
+        <div class="venue-photo">
+          <img src="images/st-george-vellayamkudy.png" alt="St. George Church, Vellayamkudy" loading="lazy">
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=St.+George+Syro+Malabar+Forane+Church+Vellayamkudy">Open in Google Maps</a>
+      </article>
+
+      <article class="venue-card">
+        <div class="smallcaps gold">Wedding Ceremony</div>
+        <h3>St. Mary's Forane Church</h3>
+        <p>Poonjar</p>
+        <div class="venue-photo">
+          <img src="images/st-marys-poonjar.png" alt="St. Mary's Forane Church, Poonjar" loading="lazy">
+        </div>
+        <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=St.+Mary's+Forane+Church+Poonjar">Open in Google Maps</a>
+      </article>
     </div>
   </div>
 </section>
 
 <section class="section alt" id="gallery">
   <div class="container">
-    <div class="section-title"><div class="script">Our Memories</div><div class="ornament">♥</div><h2>A little glimpse of our journey</h2></div>
-    <div class="gallery">
-      <div class="gallery-item tall">Couple Photo 01</div><div class="gallery-item">Couple Photo 02</div><div class="gallery-item tall">Engagement Photo</div>
-      <div class="gallery-item">Family Photo</div><div class="gallery-item tall">Couple Photo 03</div><div class="gallery-item">Memory Photo</div>
+    <div class="section-title">
+      <div class="script">Our Memories</div>
+      <div class="ornament">♥</div>
+      <h2>A little glimpse of our journey</h2>
     </div>
-    <p style="text-align:center;margin-top:25px;color:var(--muted)">Replace these placeholders with your own photographs in the HTML.</p>
+
+    <div class="gallery">
+      <div class="gallery-item tall"><span>Couple Photo 01</span></div>
+      <div class="gallery-item"><span>Couple Photo 02</span></div>
+      <div class="gallery-item tall"><span>Engagement Photo</span></div>
+      <div class="gallery-item"><span>Family Photo</span></div>
+      <div class="gallery-item tall"><span>Couple Photo 03</span></div>
+      <div class="gallery-item"><span>Memory Photo</span></div>
+    </div>
+
+    <p class="gallery-note">You can replace these placeholders with your own photographs later.</p>
   </div>
 </section>
 
 <section class="section guestbook-section" id="rsvp">
   <div class="container">
-    <div class="section-title"><div class="script">Share Your Blessings</div><div class="ornament">♥</div><h2>Your presence would mean the world to us</h2></div>
+    <div class="section-title">
+      <div class="script">Share Your Blessings</div>
+      <div class="ornament">♥</div>
+      <h2>Your presence would mean the world to us</h2>
+    </div>
 
     <div class="guestbook-intro">
       <p class="serif">Leave us a message, blessing, or a few words of love that we can cherish forever.</p>
-     <button
-    type="button"
-    id="openGuestbookBtn"
-    class="btn gold-btn">
-    Sign Our Guest Book ♥
-</button>
+      <button class="btn gold-btn" id="openGuestbookBtn" type="button">Sign Our Guest Book ♥</button>
     </div>
 
     <div class="wishes-section">
       <div class="script">Words of Love</div>
       <h3>Messages From Our Loved Ones</h3>
-      <div id="wishesList"><p class="loading-wishes">Loading blessings...</p></div>
+      <div id="wishesList" aria-live="polite">
+        <p class="loading-wishes">Loading blessings...</p>
+      </div>
     </div>
   </div>
 </section>
 
 <div class="guestbook-modal" id="guestbookModal" aria-hidden="true">
   <div class="guestbook-card" role="dialog" aria-modal="true" aria-labelledby="guestbookTitle">
-    <button class="close-btn" type="button" onclick="closeGuestbook()" aria-label="Close">×</button>
+    <button class="close-btn" id="closeGuestbookBtn" type="button" aria-label="Close guestbook">×</button>
     <div class="script">Leave a Blessing</div>
     <h2 id="guestbookTitle">Sign Our Guest Book</h2>
+
     <form id="guestbookForm">
       <label for="guestName">Your Name</label>
-      <input type="text" id="guestName" placeholder="Your name" required maxlength="80">
+      <input type="text" id="guestName" placeholder="Your name" required maxlength="80" autocomplete="name">
+
       <label for="guestMessage">Your Message</label>
       <textarea id="guestMessage" placeholder="Write your wishes for us..." required maxlength="500"></textarea>
+
       <button type="submit" class="btn gold-btn" id="publishButton">Publish ♥</button>
     </form>
+
     <p id="guestbookStatus" class="guestbook-status" role="status"></p>
   </div>
 </div>
@@ -144,50 +220,12 @@
   <div class="script">Ansu &amp; Sunoj</div>
   <p class="quote">“Therefore what God has joined together, let no one separate.” — Mark 10:9</p>
   <p>We look forward to celebrating this beautiful day with you.</p>
-  <div class="social"><a href="#home">♡</a><a href="#gallery">✦</a><a href="#rsvp">✉</a></div>
+  <div class="social"><a href="#home" aria-label="Home">♡</a><a href="#gallery" aria-label="Gallery">✦</a><a href="#rsvp" aria-label="Guestbook">✉</a></div>
 </footer>
 
-<button class="top" id="top">↑</button>
-<button class="music" id="music" title="Music">♫</button>
-<div class="toast" id="toast"></div>
-<audio id="audio" loop></audio>
+<button class="top" id="top" type="button" aria-label="Back to top">↑</button>
+<div class="toast" id="toast" role="status"></div>
 
-<script>
-const menu=document.getElementById('menu'), links=document.getElementById('links');
-menu.addEventListener('click',()=>links.classList.toggle('open'));
-document.querySelectorAll('.links a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
-
-const weddingDate=new Date('2026-09-15T11:00:00+05:30').getTime();
-function countdown(){
-  let d=weddingDate-Date.now();
-  if(d<0)d=0;
-  document.getElementById('days').textContent=Math.floor(d/86400000);
-  document.getElementById('hours').textContent=Math.floor(d%86400000/3600000);
-  document.getElementById('mins').textContent=Math.floor(d%3600000/60000);
-  document.getElementById('secs').textContent=Math.floor(d%60000/1000);
-}
-countdown(); setInterval(countdown,1000);
-
-const topBtn=document.getElementById('top');
-window.addEventListener('scroll',()=>topBtn.style.display=scrollY>500?'block':'none');
-topBtn.onclick=()=>scrollTo({top:0,behavior:'smooth'});
-
-document.getElementById('rsvpForm').addEventListener('submit',e=>{
-  e.preventDefault();
-  const name=e.target.name.value.trim();
-  document.getElementById('toast').textContent=`Thank you, ${name || 'dear guest'}! Your RSVP has been noted.`;
-  document.getElementById('toast').classList.add('show');
-  e.target.reset();
-  setTimeout(()=>document.getElementById('toast').classList.remove('show'),3500);
-});
-
-// Music button is intentionally a placeholder: add your MP3 path to the audio src below.
-const music=document.getElementById('music'), audio=document.getElementById('audio');
-music.onclick=()=>{
-  if(!audio.src){toastMsg('Add your wedding MP3 file in the audio src in this page.');return}
-  audio.paused?(audio.play(),music.textContent='❚❚'):(audio.pause(),music.textContent='♫');
-};
-function toastMsg(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3000)}
-</script>
+<script src="script.js"></script>
 </body>
 </html>
