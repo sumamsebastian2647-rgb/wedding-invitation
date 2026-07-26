@@ -115,3 +115,31 @@ music.onclick=()=>{
   audio.paused?(audio.play(),music.textContent='❚❚'):(audio.pause(),music.textContent='♫');
 };
 function toastMsg(msg){const t=document.getElementById('toast');t.textContent=msg;t.classList.add('show');setTimeout(()=>t.classList.remove('show'),3000)}
+document.addEventListener("DOMContentLoaded", function () {
+
+    const modal = document.getElementById("guestbookModal");
+    const openBtn = document.getElementById("openGuestbookBtn");
+    const closeBtn = document.querySelector(".close-btn");
+
+    if (openBtn) {
+        openBtn.addEventListener("click", function () {
+            modal.classList.add("show");
+        });
+    }
+
+    if (closeBtn) {
+        closeBtn.addEventListener("click", function () {
+            modal.classList.remove("show");
+        });
+    }
+
+    if (modal) {
+        modal.addEventListener("click", function (event) {
+            if (event.target === modal) {
+                modal.classList.remove("show");
+            }
+        });
+
+    }
+
+});
